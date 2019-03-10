@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+<repo priority="50" status="unofficial">
+	<name>oomox-overlay</name>
+	<description>Oomox Overlay</description>
+	<homepage>https://github.com/themix-project/oomox</homepage>
+	<owner>
+		<email>jesse.c.millwood@gmail.com</email>
+		<name>Jesse Millwood</name>
+	</owner>
+	<source type="git">https://github.com/Jesse-Millwood/oomox-overlay</source>
+</repo>
+</repositories>
