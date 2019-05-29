@@ -7,6 +7,7 @@ This is an unoffical overlay for Oomox on Gentoo.
 ** Usage
 *** Local Overlay
     - Copy the contents of the =oomox-overlay.conf= to =/etc/portage/repos.conf/oomox-overlay.conf=
+      - =curl -o /etc/portage/repos.conf/oomox-overlay.conf https://raw.githubusercontent.com/Jesse-Millwood/oomox-overlay/master/oomox-overlay.conf=
     - Perform an =emerge --sync=
     - Install with =emerge -av oomox=
 *** Layman
