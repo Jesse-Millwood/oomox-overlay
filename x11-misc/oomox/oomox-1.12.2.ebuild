@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit git-r3
+inherit git-r3 gnome2-utils
 
 DESCRIPTION="Graphical application for generating different color variations"
 
@@ -49,3 +49,7 @@ DEPEND="dev-python/pygobject
 		x11-themes/gnome-icon-theme-extras
 		"
 RDEPEND="${DEPEND}"
+
+pkg_preinst() { gnome2_icon_savelist; }
+pkg_postinst() { gnome2_icon_cache_update; }
+pkg_postrm() { gnome2_icon_cache_update; }
