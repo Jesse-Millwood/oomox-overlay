@@ -13,7 +13,8 @@ SRC_URI=""
 EGIT_REPO_URI="https://github.com/themix-project/${PN}"
 EGIT_BRANCH="master"
 EGIT_COMMIT="${PV}"
-EGIT_SUBMODULES=('*' -arc-theme)
+EGIT_CLONE_TYPE='mirror'
+EGIT_SUBMODULES=('*')
 
 LICENSE="GPL-3"
 
